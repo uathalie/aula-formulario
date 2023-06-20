@@ -1,0 +1,81 @@
+body{
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    left: 50%;
+    transform: translate(-50%);
+    background-color: #e7c6ff;
+    font-family: 'Raleway', sans-serif;
+    color: #392F5A;
+}
+h1{
+    text-decoration: none;
+    letter-spacing: 1.5px;
+    text-align: center;
+    margin-top: 10%;
+    margin-bottom: 3%;
+}
+hr.linha{
+    border: 1px solid #8c23d6;
+    margin-bottom: 12px;
+}
+form{
+    font-size: 17px;
+    text-align: left;
+    margin-top: 7px;
+}
+input[name="cod"],[name="prod"],[name="desc"],[name="empr"],[name="est"]{
+    margin-top: 5px;
+    width: 100%;
+    padding: 10px;
+    border: none;
+    border-bottom: 2px solid #392F5A;
+    background-color: #e7c6ff;
+    outline: none;
+    font-size: 18px;
+    font-family: 'Raleway', sans-serif;
+    letter-spacing: 1.2px;
+    color: #ca0c55;
+}
+input[name="cod"]:focus{
+    background-color: #ffef9f;
+}
+input[name="prod"]:focus{
+    background-color: #ffef9f;
+}
+input[name="desc"]:focus{
+    background-color: #ffef9f;
+}
+input[name="empr"]:focus{
+    background-color: #ffef9f;
+}
+input[name="est"]:focus{
+    background-color: #ffef9f;
+}
+input[type="submit"]{
+    background-color: #392F5A;
+    border: none;
+    border-radius: 10px;
+    color: #fff;
+    font-size: 17px;
+    letter-spacing: 1.5px;
+    padding: 13px;
+    margin-top: 16px;
+}
+input[type="submit"]:hover{
+    background-color: #ffef9f;
+    color: #392F5A;
+    cursor: pointer;
+    transition-duration: 0.2s;
+}
+a[name="voltar"]{
+    text-decoration: none;
+    width: 119px;
+    height: 20px;
+    letter-spacing: 0.3px;
+    color: #8c23d6;
+}
+a[name="voltar"]:hover{
+    color: #392F5A;
+    background-color: #ffef9f;
+}

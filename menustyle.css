@@ -1,0 +1,46 @@
+body{
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-image: url("bg.jpg");
+    background-repeat: round;
+    background-size: 50%;
+}
+button{
+    font-size: 20px;
+    padding: 18px;
+    width: 300px;
+    margin-bottom: 15px;
+    border: solid;
+    background-color: #ffef9f;
+    border-color: #ffef9f;
+    border-radius: 10px;
+    transition-duration: 0.3s;
+}
+button[name="usu"]:hover{
+    background-color: #bde0fe;
+    border: solid;
+    border-color: #bde0fe;
+}
+button[name="prod"]:hover{
+    background-color: #e7c6ff;
+    border: solid;
+    border-color: #e7c6ff;
+}
+button[name="cli"]:hover{
+    background-color: #ffc8dd;
+    border: solid;
+    border-color: #ffc8dd;
+}
+a{
+    font-family: 'Raleway', sans-serif;
+    text-decoration: none;
+    letter-spacing: 1.5px;
+    color: #392F5A;
+}
+a:hover{
+    color: #392F5A;
+}

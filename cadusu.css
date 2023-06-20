@@ -1,0 +1,88 @@
+body{
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    left: 50%;
+    transform: translate(-50%);
+    background-color: #bde0fe;
+    font-family: 'Raleway', sans-serif;
+    color: #392F5A;
+}
+h1{
+    text-decoration: none;
+    letter-spacing: 1.5px;
+    text-align: center;
+    margin-top: 10%;
+    margin-bottom: 3%;
+}
+hr.linha{
+    border: 1px solid #1d82db;
+    margin-bottom: 12px;
+}
+form{
+    font-size: 17px;
+    text-align: left;
+    margin-top: 7px;
+}
+input[name="login"],[name="senha"],[name="email"]{
+    margin-top: 5px;
+    width: 100%;
+    padding: 10px;
+    border: none;
+    border-bottom: 2px solid #392F5A;
+    background-color: #bde0fe;
+    outline: none;
+    font-size: 18px;
+    font-family: 'Raleway', sans-serif;
+    letter-spacing: 1.2px;
+    color: #ca0c55;
+}
+input[name="login"]:focus{
+    background-color: #ffef9f;
+}
+input[name="senha"]:focus{
+    background-color: #ffef9f;
+}
+input[name="email"]:focus{
+    background-color: #ffef9f;
+}
+input[name="dtcad"]{
+    width: 45%;
+    background-color: #bde0fe;
+    margin-top: 10px;
+    padding: 10px;
+    color: #ca0c55;
+    border: none;
+    font-size: 18px;
+    outline: none;
+    font-family: 'Raleway', sans-serif;
+}
+input[name="dtcad"]:focus{
+    background-color: #ffef9f;
+}
+input[type="submit"]{
+    background-color: #392F5A;
+    border: none;
+    border-radius: 10px;
+    color: #fff;
+    font-size: 17px;
+    letter-spacing: 1.5px;
+    padding: 13px;
+}
+input[type="submit"]:hover{
+    background-color: #ffef9f;
+    color: #392F5A;
+    cursor: pointer;
+    transition-duration: 0.2s;
+}
+a[name="voltar"]{
+    text-decoration: none;
+    width: 119px;
+    height: 20px;
+    letter-spacing: 0.3px;
+    color: #1d82db;
+}
+a[name="voltar"]:hover{
+    color: #392F5A;
+    background-color: #ffef9f;
+}

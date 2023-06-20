@@ -1,0 +1,2 @@
+GET: quando já está logado.
+POST: para questão de segurança.
